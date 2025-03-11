@@ -1710,7 +1710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputManager: {fileID: 1623929139}
-  maxSpeed: 0
+  maxSpeed: 10
   acceleration: 35
   jumpForce: 10
   dashForce: 40
@@ -1913,8 +1913,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558631635}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -15.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.3000002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1926,7 +1926,7 @@ RectTransform:
   - {fileID: 985020353}
   - {fileID: 1137040805}
   - {fileID: 936005659}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1663006188}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4705,6 +4705,7 @@ Transform:
   m_Children:
   - {fileID: 1895987896}
   - {fileID: 755695755}
+  - {fileID: 558631639}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1753820678
@@ -4821,12 +4822,12 @@ MonoBehaviour:
       - m_Target: {fileID: 511674247}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: UpdatePlayerMaxSpeed
-        m_Mode: 3
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -6253,4 +6254,3 @@ SceneRoots:
   - {fileID: 1165002141}
   - {fileID: 707310994}
   - {fileID: 1663006188}
-  - {fileID: 558631639}
